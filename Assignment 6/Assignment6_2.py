@@ -31,19 +31,23 @@ class BankAccount:
         print(f"Interest calculated: {interest}")
         self.Display()
 
-# Creating objects of BankAccount class
-account1 = BankAccount()
-account1.Display()
+def main():
+    account1 = BankAccount()
+    account1.Display()
 
-account2 = BankAccount()
-account2.Display()
-
-
-account1.Deposit()
-account1.Withdraw()
-account1.CalculateInterest()
+    account2 = BankAccount()
+    account2.Display()
 
 
-account2.Deposit()
-account2.Withdraw()
-account2.CalculateInterest()
+    account1.Deposit()
+    account1.Withdraw()
+    account1.CalculateInterest()
+
+    account2.Deposit()
+    account2.Withdraw()
+    account2.CalculateInterest()
+
+if __name__ == "__main__":
+    main()
+
+
