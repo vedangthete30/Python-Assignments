@@ -8,10 +8,15 @@ def DirectoryFileSearch(Dname, Fextension):
         with open(log_file_name, 'w') as log_file:
             log_file.write(f"List of {Fextension} files in {Dname} : \n")
 
-            for root, dirs, files in os.walk(Dname):
+            for foldername, subfolder, files in os.walk(Dname):
+                print("Current Directory name : ",foldername)
+
+                for subname in subfolder:
+                    print("Subfolder name is : ",subname)
+
                 for file in files:
                     if file.endswith(Fextension):
-                        file_path = os.path.join(root, file)
+                        file_path = os.path.join(foldername, file)
                         log_file.write(file_path + '\n')
 
         print(f"List of {Fextension} files saved in {log_file_name}")
