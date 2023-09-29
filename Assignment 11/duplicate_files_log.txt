@@ -1,0 +1,12 @@
+Duplicate files:
+Checksum: b469ed961a66ed7fe32cbfd997c7cc6f
+- Demo_Dir\abc.c
+- Demo_Dir\def.c
+Checksum: d41d8cd98f00b204e9800998ecf8427e
+- Demo_Dir\ghi.c
+- Demo_Dir\One.c
+- Demo_Dir\OnePython.py
+- Demo_Dir\Three.c
+- Demo_Dir\ThreePython.py
+- Demo_Dir\Two.c
+- Demo_Dir\TwoPython.py
