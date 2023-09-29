@@ -1,0 +1,10 @@
+Checksums for files in Demo_Dir:
+abc.c: d41d8cd98f00b204e9800998ecf8427e
+def.c: d41d8cd98f00b204e9800998ecf8427e
+ghi.c: d41d8cd98f00b204e9800998ecf8427e
+One.c: d41d8cd98f00b204e9800998ecf8427e
+OnePython.py: d41d8cd98f00b204e9800998ecf8427e
+Three.c: d41d8cd98f00b204e9800998ecf8427e
+ThreePython.py: d41d8cd98f00b204e9800998ecf8427e
+Two.c: d41d8cd98f00b204e9800998ecf8427e
+TwoPython.py: d41d8cd98f00b204e9800998ecf8427e
