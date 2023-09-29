@@ -1,0 +1,8 @@
+Deleted duplicate files in Demo_Dir:
+Deleted: Demo_Dir\def.c
+Deleted: Demo_Dir\One.c
+Deleted: Demo_Dir\OnePython.py
+Deleted: Demo_Dir\Three.c
+Deleted: Demo_Dir\ThreePython.py
+Deleted: Demo_Dir\Two.c
+Deleted: Demo_Dir\TwoPython.py
