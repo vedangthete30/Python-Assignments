@@ -45,6 +45,7 @@ def close_log_file(log_file):
 def main():
     print("---------------Process Automation Script---------------")
     log_file = create_log_file("process_info")
+    ProcInfo(log_file)
     close_log_file(log_file)
     print("Process information written to the log file.")
     
